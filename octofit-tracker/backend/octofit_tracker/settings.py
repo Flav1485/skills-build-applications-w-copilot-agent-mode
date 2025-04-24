@@ -44,3 +44,6 @@ CORS_ALLOW_HEADERS = [
 ]
 
 ALLOWED_HOSTS = ['*']
+
+# Codespace URL configuration
+CODESPACE_URL = "https://[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev"
