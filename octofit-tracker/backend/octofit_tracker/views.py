@@ -14,12 +14,12 @@ from .serializers import (
 
 @api_view(['GET'])
 def api_root(request, format=None):
+    codespace_url = "https://[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev"
     return Response({
-        'users': 'users/',
-        'teams': 'teams/',
-        'activities': 'activities/',
-        'leaderboard': 'leaderboard/',
-        'workouts': 'workouts/',
+        'users': f'{codespace_url}/users/',
+        'teams': f'{codespace_url}/teams/',
+        'activities': f'{codespace_url}/activities/',
+        'leaderboard': f'{codespace_url}/leaderboard/',
     })
 
 class UserViewSet(viewsets.ModelViewSet):
