@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Ajout de styles pour améliorer l'apparence de l'application */
+body {
+  background-color: #f0f8ff; /* Couleur de fond douce */
+  color: #333; /* Couleur du texte */
+  font-family: Arial, sans-serif;
+}
+
+nav.navbar {
+  background-color: #007bff; /* Couleur du menu de navigation */
+}
+
+nav.navbar .nav-link {
+  color: #fff; /* Couleur des liens dans le menu */
+}
+
+nav.navbar .nav-link:hover {
+  color: #ffdd57; /* Couleur au survol des liens */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0056b3; /* Couleur des titres */
+}
+
+button {
+  background-color: #28a745; /* Couleur des boutons */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838; /* Couleur au survol des boutons */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  background-color: #007bff;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+/* Ajout de styles pour le logo */
+.logo {
+  height: 50px;
+  margin-right: 15px;
+}
