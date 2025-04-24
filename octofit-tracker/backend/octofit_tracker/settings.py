@@ -20,6 +20,7 @@ INSTALLED_APPS = [
     # ...existing apps...
     'corsheaders',
     'tracker_app',
+    'djongo',
 ]
 
 MIDDLEWARE = [
