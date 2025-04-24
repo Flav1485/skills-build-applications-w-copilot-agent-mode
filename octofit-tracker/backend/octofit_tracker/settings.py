@@ -12,6 +12,7 @@ DATABASES = {
 INSTALLED_APPS = [
     # ...existing apps...
     'corsheaders',
+    'tracker_app',
 ]
 
 MIDDLEWARE = [
